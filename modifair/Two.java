@@ -9,4 +9,7 @@ public class Two {
         System.out.println(infoStudent.passingYear);
         infoStudent.study();
     }
+
+    public void start() {
+    }
 }

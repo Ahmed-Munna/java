@@ -1,6 +1,6 @@
 package threading;
 
-public class One extends Thread {
+ public class One extends Thread {
     public void run() {
         for (int i = 0; i <= 10; i++) {
             System.out.println(i);
@@ -13,7 +13,7 @@ public class One extends Thread {
         }
     }
 }
-public class Two extends Thread {
+  class Two extends Thread {
     public void run() {
         for (int i = 11; i <= 20; i++) {
             System.out.println(i);
